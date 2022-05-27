@@ -1,12 +1,10 @@
-title: Jekyll Serial Programmer
+title: glebosotov blog
 markdown: kramdown
-url: ""
-baseurl: "/jekyll-theme-serial-programmer"
 
 # for atom feed
 author:
-  name: Sharad Raj Singh Maurya
-  email: dev_sharad@outlook.com
+  name: glebosotov
+  email: gleb.osotov@gmail.com
 
 plugins:
   - jemoji
