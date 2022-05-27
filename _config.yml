@@ -1,4 +1,4 @@
-title: glebosotov blog
+title: glebosotov's blog
 markdown: kramdown
 
 # for atom feed
@@ -16,6 +16,9 @@ collections_dir: all_collections
 collections:
   posts:
     output: true
+  static_pages:
+    output: true
+    permalink: /:collection/:title
 
 defaults:
   - scope:
