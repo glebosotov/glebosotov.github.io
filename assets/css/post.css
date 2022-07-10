@@ -157,8 +157,27 @@ main {
   padding: 0.2rem;
 }
 .content img {
-  max-width: 100%;
-  margin: 1rem 0;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+
+.content figcaption {
+  border-radius: inherit;
+  background-color: #32353a;
+  font: caption;
+  line-height: 1.5;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 3px;
+  width: 70%;
+  text-align: center;
+}
+
+.content figure {
+  border-radius: 0% 0% 1em 1em;
+  padding: 1em;
 }
 
 /* pre , code */
